@@ -1,4 +1,0 @@
-AnnelotBossink
-==============
-
-Digital Thesis
