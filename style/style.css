@@ -5,14 +5,20 @@ html
 { margin: 0;
   padding: 0;}
 
+
 body
 { font-family: "univers", arial, sans-serif;
   font-size: .84em;
   color: #000;
   line-height: 1.4em;
   background: #FFF;
-  width: 900px;
-  margin: 10px auto 0px auto;}
+  width: 70%; 
+  margin: 10px auto 0px auto;
+    background-image: url("");
+    background-color: #FFF;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
   
 h1, h2, h3, h4, h5, h6 
 { color: #000;
@@ -100,7 +106,8 @@ ol li
 
 #basic-accordian
 { padding: 0px;
-  background: #000;}
+  background: #000;
+  overflow: visible;}
 
 .accordion_headings
 { padding: 10px 25px 10px 25px;
@@ -119,15 +126,17 @@ ol li
 
 .accordion_child
 { padding: 25px;
-  background: #FFF;}
+  background: #FFF;
+  z-index: 21}
+
 
 .header_highlight
 { background: #000;
   color: #14E6BC;}
 
 #logo
-{ width: 100%;
-  height: 150px;
+{ width: 80%;
+  height: 175%;
   background: transparent;
   color: #000;
   z-index: 10;
@@ -165,9 +174,6 @@ ol li
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
-  
-table
-{ margin: 10px 0 30px 0;}
 
 table tr th, table tr td
 { background: #EFEFEF;
